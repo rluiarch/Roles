@@ -24,5 +24,6 @@
 #
 class roles::webserver {
   include profiles::nginx
+  include profiles::nodejs
   include profiles::base  # All roles should have the base profile
 }
