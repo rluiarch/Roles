@@ -23,6 +23,7 @@
 # Copyright 2014 HERE
 #
 class roles::webserver {
+  include epel
   include profiles::nginx
   include profiles::nodejs
   include profiles::base  # All roles should have the base profile
