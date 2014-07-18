@@ -26,5 +26,7 @@ class roles::webserver {
   include epel
   include profiles::nginx
   include profiles::nodejs
+  include profiles::mongodb
+  include profiles::herelens
   include profiles::base  # All roles should have the base profile
 }
