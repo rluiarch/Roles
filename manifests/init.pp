@@ -27,13 +27,6 @@
 #    servers => [ 'pool.ntp.org', 'ntp.local.company.com' ],
 #  }
 #
-# === Authors
-#
-# Landuber Kassa <landuber.kassa@here.com>
-#
-# === Copyright
-#
-# Copyright 2014 HERE
 #
 class roles {
 
