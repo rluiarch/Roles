@@ -14,13 +14,7 @@
 #
 #  include roles::webserver
 #
-# === Authors
 #
-# Landuber Kassa <landuber.kassa@here.com>
-#
-# === Copyright
-#
-# Copyright 2014 HERE
 #
 class roles::webserver {
   include epel
